@@ -1,0 +1,30 @@
+.action {
+    position: relative;
+    text-align: end;
+}
+
+.popup {
+    display: grid;
+    place-items: center;
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 40px;
+    right: -70px;
+    /* background: darkseagreen; */
+    /* transform: translate3d(0, -50%, 0); */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    background: rgb(79, 79, 205);
+    color: white;
+    padding: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+button:hover, button:focus {
+    background: rgb(17, 17, 209);
+}
